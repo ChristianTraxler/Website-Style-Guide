@@ -1,0 +1,148 @@
+body {
+    margin: 0 10%;
+}
+
+body > h1 {
+    color: var(--favorite-color);
+    margin-top: 25px;
+    font-size: var(--size-40);
+}
+
+.container {
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: var(--size-25);
+    margin: 22px 0;
+}
+
+/*---------- Colors ----------*/
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.favorite-color {
+    background-color: orangered;
+    color: #FFFFFF;
+}
+
+.color-label {
+    margin: 20px;
+}
+
+.color-panel p {
+    font-weight: bold;
+}
+
+.dark-blue {
+    background-color: #020887;
+    color: #FFFFFF;
+}
+
+.strong-violet {
+    background-color: #7400B8;
+    color: #FFFFFF;
+}
+
+.bitter-lime {
+    background-color: #CAFE48;
+    color: #000000;
+}
+
+/*---------- Fonts ----------*/
+
+.fonts {
+    margin-bottom: 45px;
+}
+
+.font-panel {
+    display: inline-block;
+    margin: 25px 0 0 0;
+    width: 45%;
+}
+
+.font-label {
+    font-size: var(--size-20);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-panel > .roboto, .poppins, .ubuntu  {
+    margin: 25px 0;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light, .regular, .bold, .medium {
+    font-size: 16px;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*---------- Text ----------*/
+
+.text-panel {
+    font-size: 18px;
+}
+
+.text-panel > h1 {
+    margin: 43px 0 23px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    display: list-item;
+    text-align: match-parent;
+    font-size: var(--size-16);
+    line-height: 1.5;
+}
+
+.subheading {
+    margin: 43px 0 23px 0;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraph {
+    margin: 43px 0 23px 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
